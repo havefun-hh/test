@@ -1,6 +1,11 @@
 import re
+import numpy as np
+import random
 
 
-a = re.compile(r'^[a-z0-9]*$')
+a = np.array(range(10))
+
+b = re.compile(r'^[a-z0-9]*$')
 s = 'woiv23va.fae'
-print(a.match(s))
+print(b.match(s))
+
