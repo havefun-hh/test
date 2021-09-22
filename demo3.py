@@ -3,12 +3,16 @@ GEN = 2000
 LEN = 500
 
 def add(a, b):
-    return a + b
+    res = a + b
+    return res
 
 def plus(a, b):
-    return a * b
+    res = a * b
+    return res
 
 if __name__ == '__main__':
     print(GEN)
-    res1 = add(1, 2)
-    res2 = plus(1, 2)
+    a = 1
+    b = 2
+    res1 = add(a, b)
+    res2 = plus(a, b)
